@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  color: #212529;
+  margin: 0;
+  padding: 0;
+  font-family: 'Cinzel', serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  background-color: #adb5bd;
+}
+
+.our-projects {
+  margin: 3rem;
+}
+
+.logo-name {
+  font-family: fantasy;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.about-main {
+  display: flex;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  bottom: 0;
+  height: 20vh;
+  width: 100%;
+  background-color: #6c757d;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.about-areas {
+  flex: 1;
+}
+
+.about-info {
+  flex: 2;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.vision {
+  padding-top: 5rem;
+}
+
+.about-contact {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.cont-container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  padding: 0;
+}
+
+.cont-name {
+  padding-top: 2rem;
+  flex: 1;
+}
+
+p {
+  margin: 0;
+}
+
+.carousel {
+  width: 100%;
+  height: 80vh;
+}
+.carousel-inner {
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-item1 {
+  height: 100%;
+  width: 100%;
+  background: url('../assets/temp2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item2 {
+  height: 100%;
+  width: 100%;
+  background: url('../assets/temp1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.carousel-item3 {
+  height: 100%;
+  width: 100%;
+  background: url('../assets/temp3.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tile-card {
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  background-position: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.tile-bottom {
+  max-height: 25%;
+  min-height: 25%;
+  background-color: #2f3e46;
+  color: #e5e5e5;
+  text-align: center;
+  font-weight: 900;
+  border-width: 1px;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.react-multi-carousel-list {
+  overflow: visible;
+  height: 300px;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.unit {
+  font-size: .75rem;
+  padding-top: .3rem;
+}
+
+.name-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.color {
+  font-size: .75rem;
+  padding-top: .2rem;
+  padding-left: .5rem;
+}
+
+.form-container {
+  margin: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  border-style: solid;
+  border-radius: 1rem;
+  width: 35%;
+  height: 700px;
+  background-color: #2f3e46;
+  color: #e5e5e5;
+}
+
+input {
+  margin: .5rem;
+}
+
+::placeholder {
+  opacity: calc(0.5);
+}
+
+.but {
+  margin: 2rem;
+}
+
+.form-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fill {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.text {
+  margin-top: 2rem;
+}
+
+.get-back {
+  margin-bottom: 2rem;
+}
+
+.area-container {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.area {
+  margin-top: .5rem;
+}
+
+hr {
+  width: 100%;
+}
+
+h1 {
+  margin-top: 3rem;
+}
+
+/*PROJECTS CAROUSEL*/
+
+.project1 {
+  height: 100%;
+  width: 100%;
+  background: url('../assets/projects/6.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project2 {
+  height: 100%;
+  width: 100%;
+  background: url('../assets/projects/12.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project3 {
+  height: 100%;
+  width: 100%;
+  background: url('../assets/projects/3.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project4 {
+  height: 100%;
+  width: 100%;
+  background: url('../assets/projects/4.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project5 {
+  height: 100%;
+  width: 100%;
+  background: url('../assets/projects/2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project6 {
+  height: 100%;
+  width: 100%;
+  background: url('../assets/projects/1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project8 {
+  height: 100%;
+  width: 100%;
+  background: url('../assets/projects/8.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project9 {
+  height: 100%;
+  width: 100%;
+  background: url('../assets/projects/9.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project10 {
+  height: 100%;
+  width: 100%;
+  background: url('../assets/projects/10.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project12 {
+  height: 100%;
+  width: 100%;
+  background: url('../assets/projects/5.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
