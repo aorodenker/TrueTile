@@ -12,7 +12,7 @@ const Contact = () => {
                 <ins><b>Mike Richardson</b></ins>
               </p>
               <p>Owner</p>
-              <p>Phone: (123)-456-7890</p>
+              <p>Phone: (123)456-7890</p>
               <p>Email: mike@truetile.com</p>
             </div>
             <div className="cont-name">
